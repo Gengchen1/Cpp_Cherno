@@ -1,0 +1,3 @@
+/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/build/CMakeFiles/rebuild_cache.dir
+/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/build/CMakeFiles/edit_cache.dir
+/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/build/CMakeFiles/LearnCpp.dir

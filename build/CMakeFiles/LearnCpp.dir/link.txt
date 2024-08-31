@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -std=c++11 -g   CMakeFiles/LearnCpp.dir/src/Log.cpp.o CMakeFiles/LearnCpp.dir/src/Static.cpp.o CMakeFiles/LearnCpp.dir/src/main.cpp.o  -o LearnCpp 

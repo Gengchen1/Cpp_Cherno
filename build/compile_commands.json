@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/build",
+  "command": "/usr/bin/c++   -I/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/include   -Wall -std=c++11 -g   -o CMakeFiles/LearnCpp.dir/src/Log.cpp.o -c /home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/src/Log.cpp",
+  "file": "/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/src/Log.cpp"
+},
+{
+  "directory": "/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/build",
+  "command": "/usr/bin/c++   -I/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/include   -Wall -std=c++11 -g   -o CMakeFiles/LearnCpp.dir/src/Static.cpp.o -c /home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/src/Static.cpp",
+  "file": "/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/src/Static.cpp"
+},
+{
+  "directory": "/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/build",
+  "command": "/usr/bin/c++   -I/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/include   -Wall -std=c++11 -g   -o CMakeFiles/LearnCpp.dir/src/main.cpp.o -c /home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/src/main.cpp",
+  "file": "/home/zgc/Cpp_code/LearnToCpp/Cpp_Cherno/src/main.cpp"
+}
+]
