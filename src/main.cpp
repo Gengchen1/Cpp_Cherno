@@ -13,15 +13,9 @@ public:
     const String& GetName() const { return m_Name; }
 };
 
+
 int main()
 {
-    int a =2;
-    int* b = new int[50]; // 200 bytes
-
-    Entity* entity = new Entity();
-    Entity* e1 = new(b) Entity();
-    Entity* e = (Entity*)malloc(sizeof(Entity));
-
+    
     std::cin.get();
-    delete entity; // 调用了C函数free；
-};
+}
