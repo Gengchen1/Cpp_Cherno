@@ -18,7 +18,7 @@ namespace apple {
     }
 }
 namespace orange {
-    void print(char* text) {
+    void print(const char* text) {
         std::string temp = text;
         std::reverse(temp.begin(), temp.end());
         std::cout << temp << std::endl;
@@ -27,11 +27,13 @@ namespace orange {
 
 
 using namespace apple;
-using namespace orange; // 这会导致运行时的错误
+using namespace orange; // 这会导致运行时的错
 
 int main()
 {
+    // 会偷偷地调用来自 orange 的函数，而且不会报错，因为传入的是 “Hello” 是const char*类型
     print("Hello"); // 0 error, 0 warning 的错误
+    
 #if 0
     std::vector<int> values = {1, 3, 5, 4, 2};
     auto it = std::find_if(values.begin(), values.end(), [](int value) { return value > 3;});
