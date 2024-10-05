@@ -4,18 +4,13 @@
 #include <functional>
 #include <algorithm>
 
-void forEach(const std::vector<int> & values, const std::function<void(int)>& func) {
-    for (int value : values) {
-        func(value);
-    }
-}
-void print(int value) {
-    std::cout << "Value: " << value << std::endl;
-}
-namespace apple {
+namespace apple { namespace function {
+
     void print(const std::string& text) {
         std::cout << text << std::endl;
     }
+}
+    void print_again() {}
 }
 namespace orange {
     void print(char* text) {
@@ -25,20 +20,12 @@ namespace orange {
     }
 }
 
-
-using namespace apple;
-using namespace orange; // 这会导致运行时的错误
-
 int main()
 {
-    print("Hello"); // 0 error, 0 warning 的错误
-#if 0
-    std::vector<int> values = {1, 3, 5, 4, 2};
-    auto it = std::find_if(values.begin(), values.end(), [](int value) { return value > 3;});
-    std::cout << *it << std::endl;
-    int a = 5;
-    auto lambda  = [=](int value) { std::cout << "Value: " << a << std::endl; };
-    forEach(values, lambda);
-#endif
+    namespace a = apple::function;
+    using apple::print_again;
+    a::print("Hello"); 
+    print_again();
+    orange::print("Hello"); 
     std::cin.get();
 }
