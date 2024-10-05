@@ -11,3 +11,6 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 file (GLOB source_files "${source_dir}/*.cpp")
 
 add_executable (LearnCpp ${source_files})
+
+find_package(Threads REQUIRED)
+target_link_libraries(LearnCpp PRIVATE Threads::Threads)
