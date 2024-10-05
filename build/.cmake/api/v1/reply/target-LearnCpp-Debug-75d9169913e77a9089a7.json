@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -std=c++14 -g  "
+					"fragment" : " -Wall -std=c++11 -g  "
 				}
 			],
 			"includes" : 
@@ -67,7 +67,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wall -std=c++14 -g",
+				"fragment" : "-Wall -std=c++11 -g",
 				"role" : "flags"
 			},
 			{
